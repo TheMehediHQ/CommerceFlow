@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Comerse-Flow",
-  description: "A modern e-commerce solution built with Next.js",
+  title: "CommerceFlow",
+  description: "Multi-tenant F-commerce management platform for Facebook sellers in Bangladesh and South Asia.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full bg-slate-950 text-slate-100">{children}</body>
     </html>
   );
 }
